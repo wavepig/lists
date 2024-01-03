@@ -6,6 +6,7 @@ pub struct List {
     head: Link,
 }
 
+// Link
 enum Link {
     Empty,
     // List 不能确定大小需要用 Box 包裹,对于rust编译器来说所有栈上的类型都必须在编译期有固定的长度
