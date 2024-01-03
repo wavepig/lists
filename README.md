@@ -1,2 +1,3 @@
 # lists
-rust 链表练手
+rust 练手项目
+    链表
