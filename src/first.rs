@@ -27,7 +27,7 @@ impl List {
     }
     pub fn push(&mut self, elem: i32) {
         let new_node: Box<Node> = Box::new(Node {
-            elem: elem,
+            elem,
             // 函数允许我们从一个借用中偷出一个值的同时再放入一个新值。
             next: std::mem::replace(&mut self.head, Link::Empty),
         });
